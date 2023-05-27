@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhash-Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/26bf2f6b93.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>S</span>ubhash</h1>
+                <!-- <img src="/Basicproject/portofolio/images/logo.png"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Subhash</span><br>Kumar from Bihar</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------About---------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I have completed BCA from Magadh University, Bihar. Also, I have done internship of Web development & design from The Spark Foundation. Solution-driven web developer adept at contributing to highly collaborativework environment and finding solutions. Proven experience developing consumer-focused websites using HTML, CSS, PHP and JavaScript. Good knowledge of the best practices for web design, user experience, and speed. Determined coding requirements for site creation, including e-commerce capability, security and specialized scripts. Conducted testing and review of website design for responsiveness, clarity and effectiveness.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><BR>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><BR>Web app Development</li>
+                            <li><span>App Development</span><BR>Building Android / iOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><BR>Internship Web Developement & Designng at The Spark Foundation</li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><BR>Full Stack Web Developement at PW(Physics Wallah)</li>
+                            <li><span>2023</span><BR>JavaScript at Geekster</li>
+                            <li><span>2022</span><BR>BCA from Magadh University, Bihar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------Services---------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>A website is a collection of related web pages and associated content, such as images, videos, and other digital media, that are hosted on a web server and accessible through the internet. Websites are typically designed and developed to serve a particular purpose, such as providing information, selling products or services, or facilitating communication and collaboration among users. Websites can range from simple, static pages to complex, interactive applications with dynamic content and functionality. We are website designer, who provides varieties of website design services.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI / UX Design</h2>
+                    <p>UI / UX design agency services refers to the process of designing the user interface and user experience of a digital product such as a website, mobile app, or software application. UI (user interface) design focuses on the visual elements of the product, such as layout, typography, and color scheme, to create an aesthetically pleasing and easy-to-use interface that helps users achieve their goals. UX (user experience) design, on the other hand, focuses on the overall experience a user has while interacting with the product, including ease of use, efficiency, and user satisfaction.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>software applications are specifically designed to run on mobile devices, taking numerous hardware constraints into consideration. Common constraints include CPU architecture and speeds, available memory, limited data storage capacities, and considerable variation in displays and input methods. These applications can be pre-installed on phones during manufacturing or delivered as web applications, using server-side or client-side processing to provide an "application-like" experience within a web browser.Mobile app development has been steadily growing, in revenues and jobs created. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------porfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/work-1.png" alt="#">
+                    <div class="layer">
+                        <h3>The Social Media App</h3>
+                        <p>A social media app is a mobile application that lets users post status updates, photos, and videos, and interact with other users.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/work-2.png" alt="#">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>A music app is a mobile application that lets users post music videos, music playlists, and music albums.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/work-3.png" alt="#">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p> A Shopping application that lets users buy goods and services online.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+    </div>
+    <!-- -----------Contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>subhash02k@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> 7765955903</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/Subhash776/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/Subhash02k"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/subha__sh_/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/subhash77/"><i class="fab fa-linkedin"></i></a>
+                       <a href="https://github.com/subhash02k"> <i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="/subhashCV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="06" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="Msg"></span>
+                </div>
+            </div>
+
+            
+            <div class="copyright">
+                <p>Copyright &copy; Subhash Kumar</p>
+            </div>
+
+        </div>
+    </div>
+
+<!-- ------------------javascript------------- -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"; 
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"; 
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzO7ovZOK7A2UEXAI31VEmS0I6xbKmue4835mqgoSnRRXBkni3yrHjTHAPVeD28_E-y/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const Msg = document.getElementById("Msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            Msg.innerHTML = "Message sent Sucessfully"
+            setTimeout(function(){
+                Msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
